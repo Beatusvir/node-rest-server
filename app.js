@@ -14,5 +14,5 @@ app.get('/', function(req, res) {
 });
 
 app.get('/goTheDistance', function(req, res) {
-  res.send(JSON.stringify(data));
+  res.json(data);
 });
